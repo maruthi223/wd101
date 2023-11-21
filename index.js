@@ -75,6 +75,3 @@ const saveUserinfo = (events) =>{
 }
 userForm.addEventListener('submit',saveUserinfo); 
 dispalyData();
-window.addEventListener('beforeunload', () => {
-    localStorage.removeItem('userEntries');
-});
